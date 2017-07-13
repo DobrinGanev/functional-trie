@@ -51,7 +51,7 @@ module.exports = class Vertex {
   /**
    * Set an edge on a given path to the given the vertex
    * @param {Array} path
-   * @param {Vertex} vertex
+   * @param {Vertex} newVertex
    */
   set (path, newVertex) {
     return this.update(path, vertex => {
